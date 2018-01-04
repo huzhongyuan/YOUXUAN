@@ -1,0 +1,107 @@
+body{
+  margin:0px auto;
+}
+#u{
+  position:absolute;
+  z-index: 9998;
+  right:150px;
+  top: 10px;
+  height:20px;
+}
+#logo{
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  z-index: 9999;
+}
+#lg{
+    font-size: 30px;
+}
+#lg1{
+  font-size: 20px;
+}
+#lb{
+  cursor: pointer;
+  position: relative;
+  width:1270px;
+  top: 90px;
+  margin:0px auto;
+}
+.content{
+  position:relative;
+  width: 1270px;
+  top:140px;
+//  background-color: red;
+  margin:auto;
+}
+.item{
+  position:relative;
+}
+.img{
+  position:relative;
+  width:100%;
+}
+.goods{
+  float: left;
+  //cursor: pointer;
+  width:250px;
+  height:350px;
+  margin:0px;
+  margin-bottom: 25px;
+  padding-top:0px;
+//  background-color: blue;
+}
+.goods:not(:nth-child(4n+0)) {
+    margin-right:90px
+}
+.photobox{
+  position: relative;
+}
+.photo{
+  width:250px;
+  height: 250px;
+}
+.pn{
+  width:250px;
+  height:25px;
+//  background-color: green;
+}
+.price{
+  float: left;
+  margin-left: 10px;
+  font-size: 15px;
+  color:red;
+  display: inline;
+  margin-top:2px;
+}
+.num{
+  float: right;
+  margin-right:15px;
+  font-size: 12px;
+  display: inline;
+  margin-top:5px;
+}
+.nd{
+  width:250px;
+  height:40px;
+//  background-color: red;
+  font-size: 14px;
+}
+.name{
+  margin-left:10px;
+  height: 20px;
+  color:orange;
+}
+.des{
+  width:250px;
+  height: 30px;
+  margin-left:10px;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  max-width: 95%;
+}
+.buy{
+  cursor: pointer;
+  float:right;
+  color: red;
+}

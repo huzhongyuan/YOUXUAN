@@ -1,0 +1,79 @@
+body{
+  margin:0px auto;
+}
+#u{
+  position:absolute;
+  z-index: 9998;
+  right:150px;
+  top: 10px;
+  height:20px;
+}
+#logo{
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  z-index: 9999;
+}
+#lg{
+    font-size: 30px;
+}
+#lg1{
+  font-size: 20px;
+}
+#content{
+  width:800px;
+  margin:0px auto;
+  margin-top:100px;
+}
+.list-group-item{
+	height:43px;
+}
+.list-group-item:nth-child(3n+0){
+  background-color: #DFF0D8;
+}
+.list-group-item:nth-child(3n+1){
+  background-color:#F2DEDE
+}
+.list-group-item:nth-child(3n+2){
+  background-color: #D9EDF7
+}
+.name{
+  position: absolute;
+  left:40px;
+  display: inline;
+  color:orange;
+  text-align:center;
+}
+.price{
+  position: absolute;
+  left:250px;
+  display: inline;
+  color:red;
+  text-align:center;
+}
+.chbox{
+  display:inline;
+  position:absolute;
+  left:600px;
+}
+.choose{
+  position: relative;
+  top:2px;
+}
+.del{
+  margin-top:-5px;
+  float: right;
+  margin-right:20px;
+}
+#all{
+  display: inline;
+  float: right;
+  line-height: 40px;
+  font-size: 15px;
+}
+#jiesuan{
+  margin-right:35px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: right;
+}
